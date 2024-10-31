@@ -2,14 +2,18 @@
 
 # TO-DO
 
-Unifying (connect reinhard to the main code)
+### Preprocessing
+1. Unifying (connect reinhard to the main code)
+2. Increase contrast
+3. Laplace - edge detection
 
-Scaling down the data => save locally (done for binary)
-Splitting the normalization and then join (done by image data generator)
+-----
+Scaling down the data => save locally (done for binary)  
+Splitting the normalization and then join (done by image data generator)  
 
-Batching (??)
+Batching (??)  
 
-After preprocessing => checkpoint  
+After preprocessing => checkpoint    
 
 Imbalanced dataset => stratify!  
 
@@ -31,8 +35,8 @@ loss of information?
 
 # Team members
 
-Christian  
-Gabriele Francesco Zazzetta, 20241256, 20241256@novaims.unl.pt  
-Michal Wojcik, 20241255, 20121255@novaims.unl.pt  
-Simon Schumacher, 20241249, 20241249@novaims.unl.pt  
-Virgil Baclanov, 20241247, www.itsgil.com  
+Christian    
+Gabriele Francesco Zazzetta, 20241256, 20241256@novaims.unl.pt    
+Michal Wojcik, 20241255, 20121255@novaims.unl.pt    
+Simon Schumacher, 20241249, 20241249@novaims.unl.pt    
+Virgil Baclanov, 20241247, www.itsgil.com    
