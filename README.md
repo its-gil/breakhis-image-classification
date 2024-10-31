@@ -2,15 +2,16 @@
 
 # TO-DO
 
-Scaling down the data
-Splitting the normalization and then join
-Batching 
+Unifying (connect reinhard to the main code)
 
-Unifying 
+Scaling down the data => save locally (done for binary)
+Splitting the normalization and then join (done by image data generator)
 
-After preprocessing => checkpoint
+Batching (??)
 
-Imbalanced dataset => stratify!
+After preprocessing => checkpoint  
+
+Imbalanced dataset => stratify!  
 
 
 # Questions
