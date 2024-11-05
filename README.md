@@ -35,7 +35,7 @@ loss of information?
 
 # Team members
 
-Christian    
+Christian Deluca, 20241264, 20241264@novaims.unl.pt
 Gabriele Francesco Zazzetta, 20241256, 20241256@novaims.unl.pt    
 Michal Wojcik, 20241255, 20121255@novaims.unl.pt    
 Simon Schumacher, 20241249, 20241249@novaims.unl.pt    
