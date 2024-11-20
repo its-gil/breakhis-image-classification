@@ -1,7 +1,7 @@
 # Project - image classification - group 12
 
 # TO-DO
-
+evaluate model based on heatmaps? grad-cam; 
 maybe try different image sizes + callbacks + maybe checkpoints (christian)
 try integrate reinhardt
 different models 
