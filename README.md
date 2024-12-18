@@ -1,46 +1,16 @@
-# Project - image classification - group 12
+# BreaKHis binary and multi-class image classification for breast cancer recognition
 
-# TO-DO
-evaluate model based on heatmaps? grad-cam; 
-maybe try different image sizes + callbacks + maybe checkpoints (christian)
-try integrate reinhardt
-different models 
+The dataset can be downloaded here: http://www.inf.ufpr.br/vri/databases/BreaKHis_v1.tar.gz ;
 
-### Preprocessing
-1. Unifying (connect reinhard to the main code)
-2. Increase contrast
-3. Laplace - edge detection
+1. Please download the dataset and put it into *this workspace*. This is critical for step 2 to work.
+2. Run the python script 'Preprocess_csv_and_build_file_structure' in './utils' to generate a file index and structure for the images. The creation of the file structure will take a while, because the images have to be scaled down and copied all into the same directory.
+3. Run the binary or multi-class models under '/models'.
 
------
-Scaling down the data => save locally (done for binary)  
-Splitting the normalization and then join (done by image data generator)  
+IMPORTANT NOTE: ensure that the file paths present in the code are adjusted to your workspace!
 
-Batching (??)  
-
-After preprocessing => checkpoint    
-
-Imbalanced dataset => stratify!  
-
-
-# Questions
-
-### Drop magnification column from the original CSV?
-
-### Q1: What about class computers for training?? Maybe better??
-I believe all of our laptop have Intel Iris... So we are better off with Collab's Nvidia I suppose. Or maybe class computers??
-
-### Q2: How to handle the HUGE amount of data?
-about 4GB comprimated => about **30 GB** to handle for the whole process... no point in pushing that to the repository ofc.
-
-### Q3: is it a good approach to scale down the data?
-loss of information?
-
-### Q4: idea - is it a good approach to uniformize the color of the samples?
-
-# Team members
-
-Christian Deluca, 20241264, 20241264@novaims.unl.pt   
-Gabriele Francesco Zazzetta, 20241256, 20241256@novaims.unl.pt   
-Michal Wojcik, 20241255, 20121255@novaims.unl.pt  
-Simon Schumacher, 20241248, 20241248@novaims.unl.pt    
-Virgil Baclanov, 20241247, www.itsgil.com 
+### Contributors:
+Christian Deluca,
+Gabriele Francesco Zazzetta,
+Michal Wojcik,
+Simon Schumacher,
+Virgil Baclanov @ www.itsgil.com 
